@@ -1,0 +1,129 @@
+section{
+	margin-top: 20px;
+}
+
+section nav{
+	background-color: #e11364;
+}
+
+.banner{
+	background-image: url('../images/mario-kart/Mario-Kart-Tour.webp');	
+	height: 200px;
+	display: flex;	
+	align-items: flex-end;
+	justify-content:flex-end ;
+	color: white;
+	background-position: center;
+	background-blend-mode: color-burn;
+}
+
+.subtitulo-juego-section
+{
+	margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: #e11364;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul{
+	margin-top: 5px;	
+    list-style-type: none;
+    padding-inline-start: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+nav ul li a{
+	
+	display: block;
+	font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: bold;
+	text-decoration: none;
+	padding: 5px 10px;
+	background-color: #e11364;	
+}
+
+nav ul li a:hover{	
+    color: #e11364;
+    background-color: #fff;	
+}
+
+#historia img{
+	width: 200px;
+	margin:5px 5px 5px 0;
+}
+
+.container-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.container-galeria{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container-galeria img{
+	height: 150px;
+	border: 5px solid #e11364;
+	margin:2px;
+	width: auto;
+}
+
+.card-personaje{
+	background-color: #fcfcfc;
+	border-radius: 5px;
+	border: 2px solid #bc105c;
+	height: 550px;
+	width: 295px;
+	margin: 2px;	
+}
+
+.card-personaje-title{
+	background-color: #bc105c;
+    color: #ffffff;
+	text-align: center;
+	padding: 10px 0;	
+	display: block;
+	font-size: 1.2rem;
+    font-weight: bold;
+	text-decoration: none;
+}
+
+.card-personaje-desc{
+	background-color: #f8ff69;
+	border-radius: 5px;
+	border: 1px solid #bc105c;
+	padding: 10px 10px;
+	height: 186px;
+	text-align: center;
+}
+
+.card-personaje-img{	
+	height: 300px;
+}
+
+.card-personaje-img img{
+	display:block;
+	height: 100%;
+}
+
+.txt-price{
+	color: #bc105c;
+	font-size: 50px;
+}
+
+.container-flex-price{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
